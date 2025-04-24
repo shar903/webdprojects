@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="watch">
+            <div class="outer-circle">
+                <div class="inner-circle">
+                    <span class = "Text minutes"> 01:</span>
+                    <span class = "Text sec"> 47.</span>
+                    <span class = "Text msec"> 97</span>
+                </div>
+            </div>
+            <div class = "Button-wrapper">
+                <button class = "button">Reset</button>
+                <button class = "button">Play</button>
+                <button class = "button">laps</button>
+            </div>
+        </div>
+        <ul class = "laps">
+            <li class = "lap-item">
+                <span class ="number"> #1 </span>
+                <span class = "time-stamp"> 00:00:00 </span>
+            </li>
+            
+            <button class = "lap-clear-button">Clear All</button>
+        </ul>
+    </div>
+    <script src="ijn.js"></script>
+</body>
+</html>
